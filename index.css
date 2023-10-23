@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddf5f6; /* Açık pembe arka plan rengi */
+    color: #333; /* Metin rengi */
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col-img-div{
+    max-width: fit-content;
+}
+/* Fotoğrafları büyütmek için */
+.main-images {
+    margin-bottom: 1rem!important;
+    width: 100%; /* Fotoğraf genişliğini %100 yapar */
+    height: auto; /* Yüksekliği otomatik olarak ayarlar, oranı korur */
+}
+
+
+.navbar {
+    background-color: #333; /* Menü arka plan rengi */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Menü metin rengi */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff; /* Menü ikon rengi */
+}
+
+.container {
+    max-width: 960px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Başlık metin rengi */
+}
